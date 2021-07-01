@@ -13,6 +13,6 @@ public  class UserDao implements UserDaoI{
     @Override
     public List<User> findALLUser() {
         session = factory.openSession();
-        return session.selectList("findAllUser")；
+        return session.selectList("findAllUser");
     }
 }
