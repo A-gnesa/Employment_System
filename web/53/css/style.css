@@ -112,7 +112,7 @@ div.flicking_con a.on{ background:#f60; color:#fff}
 .zhuce_nam2{width:56px; height:20px; float:left; margin-left:8px;}
 
 /* search */
-.search{width:1000px; height:83px; background:url(../images/search_bg.jpg); float:left; font-size:14px;}
+.search{width:1000px; height:83px;  float:left; font-size:14px;}
 .search_blank{width:1000px; height:25px; float:left}
 .search_a{width:158px; height:32px; background:#fff;  margin-left:31px; float:left;}
 .search_b{width:158px; height:32px; background:#fff;  margin-left:17px; float:left;}
