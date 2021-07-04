@@ -36,7 +36,7 @@ a:hover{color:#f60; text-decoration:underline}
 /*center*/
 .center_a{width:100%; height:350px;}
 .center_blank{width:100%; height:10px;}
-.center_b{width:1000px; height:330px; margin:auto;}
+.center_b{width:1000px; height:330px; margin:83px;}
 .center_gg{width:611px; height:328px; float:left; background:#fff; border:1px solid #d7d7d7;}
 .center_gga{width:100%; height:39px; line-height:39px; border-bottom:1px solid #d7d7d7;  background:#fbfbfb url(../images/gg_pic.jpg) left no-repeat; color:#fff; font-size:15px; font-weight:bold; letter-spacing:3px; text-indent:12px;}
 .center_gga_1{width:125px; height:39px; float:left;}
