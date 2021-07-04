@@ -25,8 +25,17 @@ public class JobDao0432 implements JobDaol0432 {
     }
 
     @Override
-    public boolean deleteInformationByName() {
+    public boolean deleteInformationByName(Job0432 jname) {
         session = factory.openSession();
-        int i=session
+        int i=session.delete("com.po.Job0432.deleteInformationByName",jname);
+        session.commit();
+        return i > 0;
+
+    }
+
+    @Override
+    public int updateInformationByname(Job0432 job0432) {
+        session = factory.openSession();
+        return session.update("com.po.Job0432.updateInformationByname",job0432);
     }
 }
