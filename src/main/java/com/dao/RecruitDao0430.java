@@ -11,9 +11,9 @@ public class RecruitDao0430 implements RecruitlDao0430 {
     SqlSessionFactory factory = sqlSessionFactory.getSqlSessionFactory();
     SqlSession session;
     @Override
-    public List<Recruit0430> findRecruitBycity(Recruit0430 Recruit0430) {
+    public List<Recruit0430> findRecruitBycity(Recruit0430 recruit0430) {
         session = factory.openSession();
-        return session.selectList("findRecruitBycity", Recruit0430);
+        return session.selectList("findRecruitBycity", recruit0430);
     }
 
     @Override

@@ -1,16 +1,17 @@
 package com.po;
 
+import java.sql.Timestamp;
 import java.util.Date;
 
 public class Recruit0430 {
 //PID是招聘表主键，EID是职业表主键
     private Integer PID;
+    private String city;
     private Integer UID;
     private Integer EID;
-    private String city;
     private String requirement;
     private String salary;
-    private Date time;
+    private Timestamp time;
     private String companyname;
     private String companyInformation;
 
@@ -19,7 +20,7 @@ public class Recruit0430 {
     public Date getTime() {
         return time;
     }
-    public void setTime(Date time) {
+    public void setTime(Timestamp time) {
         this.time = time;
     }
     public Integer getPID() {
@@ -101,18 +102,18 @@ public class Recruit0430 {
                 '}';
     }
 
-    public Recruit0430(Integer PID, Integer UID, Date time, Integer EID, String city, String requirement, String salary, String companyname, String companyInformation) {
-        this.UID = UID;
-        this.UID = UID;
-        this.EID= EID;
-        this.time= time;
+    public Recruit0430() {
+    }
+
+    public Recruit0430(Integer PID, String city, Integer UID, Integer EID, String requirement, String salary, Timestamp time, String companyname, String companyInformation) {
+        this.PID = PID;
         this.city = city;
+        this.UID = UID;
+        this.EID = EID;
         this.requirement = requirement;
         this.salary = salary;
+        this.time = time;
         this.companyname = companyname;
         this.companyInformation = companyInformation;
     }
-
-
-
 }

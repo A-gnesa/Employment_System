@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.po.Recruit0430">
+    <select id="findRecruitBycity" resultType="com.po.Recruit0430">
+         select * from recruit where city LIKE
+    </select>
+    <select id="findRecruitByEID" resultType="com.po.Recruit0430">
+        select * from recruit where EID = #{EID};
+    </select>
+    <select id="findRecruitByrequirement" resultType="com.po.Recruit0430">
+        select * from recruit where requirement = '%'#{requirement}'%';
+    </select>
+    <select id="findALLRecruit" resultType="com.po.Recruit0430">
+        select * from recruit;
+    </select>
+    <select id="delete" resultType="com.po.Recruit0430">
+        delete from recruit where PID=#{PID};
+    </select>
+    <select id="findRecruitBytime" resultType="com.po.Recruit0430">
+        select * from recruit order by time desc;
+    </select>
+    <select id="add" resultType="com.po.Recruit0430">
+        insert into recruit (city,UID,EID,requirement,time,salary,companyname,companyInformation) values (#{city},#{UID},#{EID},#{requirement},#{time},#{salary},#{companyname},#{companyInformation})
+    </select>
+</mapper>
