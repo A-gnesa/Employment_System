@@ -23,5 +23,6 @@
     </environments>
     <mappers>
         <mapper resource="static/mapper/userMapper.xml"/>
+        <mapper resource="static/mapper/RecuitMapper.xml"/>
     </mappers>
 </configuration>
