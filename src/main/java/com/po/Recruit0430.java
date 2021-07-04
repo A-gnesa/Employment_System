@@ -2,6 +2,7 @@ package com.po;
 
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.Locale;
 
 public class Recruit0430 {
 //PID是招聘表主键，EID是职业表主键
@@ -15,6 +16,9 @@ public class Recruit0430 {
     private String companyname;
     private String companyInformation;
 
+    public Recruit0430(String s, Locale english) {
+        time= Timestamp.valueOf("2021-07-04 10:40:25");
+    }
 
 
     public Date getTime() {
