@@ -14,8 +14,9 @@ public class ApplicationDao0403 implements ApplicationDaol0403{
     @Override
     public boolean deleteByUID(User user) {
         session = factory.openSession();
-        return session.delete("deleteByUID",user)>0;
-
+        int i = session.delete("deleteByUID",user);
+        session.commit();
+        return  i>0;
     }
 
     @Override
