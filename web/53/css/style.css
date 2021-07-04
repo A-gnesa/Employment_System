@@ -37,7 +37,7 @@ a:hover{color:#f60; text-decoration:underline}
 .center_a{width:100%; height:350px;}
 .center_blank{width:100%; height:10px;}
 .center_b{width:1000px; height:330px; margin:83px;}
-.center_gg{width:611px; height:328px; float:left; background:#fff; border:1px solid #d7d7d7;}
+.center_gg{width:620px; height:328px; float:left; background:#fff; border:1px solid #d7d7d7;}
 .center_gga{width:100%; height:39px; line-height:39px; border-bottom:1px solid #d7d7d7;  background:#fbfbfb url(../images/gg_pic.jpg) left no-repeat; color:#fff; font-size:15px; font-weight:bold; letter-spacing:3px; text-indent:12px;}
 .center_gga_1{width:125px; height:39px; float:left;}
 .center_ggb{width:560px; height:270px; padding:10px 10px 10px 35px;}
@@ -91,7 +91,7 @@ div.flicking_con a.on{ background:#f60; color:#fff}
 /*注册*/
 .bang{width:488px; height:218px; border:1px solid #d7d7d7; float:left; background:url(../images/bang_pp.jpg) repeat-x #fff; margin:0 10px;}
 /*切换标签样式*/
-.itab{float:left; width:100%;}
+.itab{float:right; width:100%;}
 .slideBox{width:100% ;height:34px;}
 .slideBox span{color:#555;cursor:pointer;float:left;font-size:15px; font-weight:bold; letter-spacing:2px; height:34px;line-height:34px;text-align:center;}
 .slideBox dt .on,  .slideBox a:hover{color:#fff; background:url(../images/bang_pp1.jpg);font-weight:bold;}
