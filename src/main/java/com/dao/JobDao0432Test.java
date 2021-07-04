@@ -14,7 +14,6 @@ class JobDao0432Test {
         job0432.setJname("c++");
         job0432.setEID(7);
         System.out.println(jobDao0432.updateInformationByname(job0432));
-
     }
 
 }
