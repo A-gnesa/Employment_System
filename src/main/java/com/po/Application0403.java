@@ -1,5 +1,6 @@
 package com.po;
 
+import java.sql.Timestamp;
 import java.util.Date;
 
 public class Application0403 {
@@ -7,21 +8,12 @@ public class Application0403 {
     private Integer RID;
 //    PID 招聘表主键
     private Integer PID;
-    private Date applicationTime;
-
-    @Override
-    public String toString() {
-        return "Person0403{" +
-                "RID=" + RID +
-                ", PID=" + PID +
-                ", applicationTime=" + applicationTime +
-                '}';
-    }
+    private Timestamp applicationTime;
 
     public Application0403() {
     }
 
-    public Application0403(Integer RID, Integer PID, Date applicationTime) {
+    public Application0403(Integer RID, Integer PID, Timestamp applicationTime) {
         this.RID = RID;
         this.PID = PID;
         this.applicationTime = applicationTime;
@@ -47,7 +39,16 @@ public class Application0403 {
         return applicationTime;
     }
 
-    public void setApplicationTime(Date applicationTime) {
+    public void setApplicationTime(Timestamp applicationTime) {
         this.applicationTime = applicationTime;
+    }
+
+    @Override
+    public String toString() {
+        return "Application0403{" +
+                "RID=" + RID +
+                ", PID=" + PID +
+                ", applicationTime=" + applicationTime +
+                '}';
     }
 }

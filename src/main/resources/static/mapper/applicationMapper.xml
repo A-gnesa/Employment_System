@@ -7,6 +7,6 @@
         delete from Application where UID = #{UID}
     </delete>
     <select id="selectApplicationByTime" resultType="com.po.Application0403">
-        select * from Application order by datetime
+        select * from application order by applicationTime desc
     </select>
 </mapper>
