@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.po.Job0432">
+    <select id="findAll" resultType="com.po.Job0432">
+        select * from Job
+    </select>
+    <insert id="insertName" parameterType="com.po.Job0432"  >
+        insert into Job (jname) values (#{jname})
+    </insert>
+    <delete id="deleteInformationByName" parameterType="com.po.Job0432">
+        delete from Job where jname=#{jname}
+    </delete>
+    <update id="updateInformationByname" parameterType="com.po.Job0432">
+        update Job SET jname=#{name} where jname=#{name}
+    </update>
+</mapper>
