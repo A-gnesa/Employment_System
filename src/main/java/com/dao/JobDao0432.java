@@ -36,6 +36,8 @@ public class JobDao0432 implements JobDaol0432 {
     @Override
     public int updateInformationByname(Job0432 job0432) {
         session = factory.openSession();
-        return session.update("com.po.Job0432.updateInformationByname",job0432);
+        int i = session.update("com.po.Job0432.updateInformationByname",job0432);
+        session.commit();
+        return i;
     }
 }
