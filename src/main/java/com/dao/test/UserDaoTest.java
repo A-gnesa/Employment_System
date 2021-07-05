@@ -1,8 +1,6 @@
-package com.dao;
+package com.dao.test;
 
-import com.tools.sqlSessionFactory;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
+import com.dao.userDao.UserDao;
 
 
 class UserDaoTest {

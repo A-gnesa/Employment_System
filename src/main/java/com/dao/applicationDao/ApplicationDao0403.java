@@ -1,5 +1,6 @@
-package com.dao;
+package com.dao.applicationDao;
 
+import com.dao.baseDao;
 import com.po.Application0403;
 import com.po.User;
 import com.tools.sqlSessionFactory;
@@ -8,9 +9,8 @@ import org.apache.ibatis.session.SqlSessionFactory;
 
 import java.util.List;
 
-public class ApplicationDao0403 implements ApplicationDaol0403{
-    SqlSessionFactory factory = sqlSessionFactory.getSqlSessionFactory();
-    SqlSession session;
+public class ApplicationDao0403 extends baseDao implements ApplicationDaol0403{
+
     @Override
     public boolean deleteByUID(User user) {
         session = factory.openSession();

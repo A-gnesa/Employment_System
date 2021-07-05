@@ -1,9 +1,9 @@
-package com.dao;
+package com.dao.test;
 
 
+import com.dao.recruitDao.RecruitDao0430;
 import com.po.Recruit0430;
-import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
+
 import java.util.Locale;
 
 class RecruitDao0430Test {

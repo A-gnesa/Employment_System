@@ -1,7 +1,7 @@
-package com.dao;
+package com.dao.test;
 
+import com.dao.personalInformation.PersonalInformationDaol0308;
 import com.po.PersonalInformation0308;
-import com.po.User;
 
 public class PersonalInformationDaol0308Test {
     public static void main(String[] args) {

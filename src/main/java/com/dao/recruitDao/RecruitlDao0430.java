@@ -1,4 +1,4 @@
-package com.dao;
+package com.dao.recruitDao;
 
 import com.po.Recruit0430;
 

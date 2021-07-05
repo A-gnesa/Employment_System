@@ -1,4 +1,4 @@
-package com.dao;
+package com.dao.jobDao;
 
 import com.po.Job0432;
 

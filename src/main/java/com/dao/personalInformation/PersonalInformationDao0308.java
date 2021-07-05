@@ -1,4 +1,4 @@
-package com.dao;
+package com.dao.personalInformation;
 
 import com.po.PersonalInformation0308;
 import com.po.User;

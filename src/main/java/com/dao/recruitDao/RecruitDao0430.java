@@ -1,15 +1,11 @@
-package com.dao;
+package com.dao.recruitDao;
 
+import com.dao.baseDao;
 import com.po.Recruit0430;
-import com.tools.sqlSessionFactory;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
 
 import java.util.List;
 
-public class RecruitDao0430 implements RecruitlDao0430 {
-    SqlSessionFactory factory = sqlSessionFactory.getSqlSessionFactory();
-    SqlSession session;
+public class RecruitDao0430 extends baseDao implements RecruitlDao0430 {
     @Override
     public List<Recruit0430> findRecruitBycity(Recruit0430 recruit0430) {
         session = factory.openSession();

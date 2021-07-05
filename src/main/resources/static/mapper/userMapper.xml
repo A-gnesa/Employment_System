@@ -6,4 +6,8 @@
     <select id="findAllUser" resultType="com.po.User">
         select * from User;
     </select>
+    <insert id="addUser" parameterType="com.po.User">
+        insert into user (reqTime,accountNumber,password)
+        values (#{reqTime},#{accountNumber},#{password});
+    </insert>
 </mapper>

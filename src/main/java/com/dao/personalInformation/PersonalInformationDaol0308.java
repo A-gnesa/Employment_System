@@ -1,14 +1,11 @@
-package com.dao;
+package com.dao.personalInformation;
 
+import com.dao.baseDao;
 import com.po.PersonalInformation0308;
 import com.po.User;
-import com.tools.sqlSessionFactory;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
 
-public class PersonalInformationDaol0308 implements PersonalInformationDao0308 {
-    SqlSessionFactory factory = sqlSessionFactory.getSqlSessionFactory();
-    SqlSession session;
+public class PersonalInformationDaol0308 extends baseDao implements PersonalInformationDao0308 {
+
     @Override
     public boolean insertAllInformation(PersonalInformation0308 personalInformation0308) {
         session = factory.openSession();

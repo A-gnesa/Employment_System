@@ -1,15 +1,11 @@
-package com.dao;
+package com.dao.jobDao;
 
+import com.dao.baseDao;
 import com.po.Job0432;
-import com.tools.sqlSessionFactory;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
 
 import java.util.List;
 
-public class JobDao0432 implements JobDaol0432 {
-    SqlSessionFactory factory = sqlSessionFactory.getSqlSessionFactory();
-    SqlSession session;
+public class JobDao0432 extends baseDao implements JobDaol0432 {
     @Override
     public List<Job0432> findAll() {
         session = factory.openSession();

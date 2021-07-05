@@ -1,4 +1,4 @@
-package com.dao;
+package com.dao.applicationDao;
 
 import com.po.Application0403;
 import com.po.User;
