@@ -113,12 +113,12 @@ div.flicking_con a.on{ background:#f60; color:#fff}
 
 /* search */
 .search{width:1000px; height:83px;  float:left; font-size:14px;}
-.search_blank{width:1000px; height:25px; float:left}
+.search_blank{width:1000px; height:25px; float:left;}
 .search_a{width:158px; height:32px; background:#fff;  margin-left:31px; float:left;}
 .search_b{width:158px; height:32px; background:#fff;  margin-left:17px; float:left;}
 .search_c{width:698px; height:32px;  margin-left:83px; float:left}
 .search_c value{color:#b8b8b8}
-.search_btn{width:109px; height:34px; margin-left:17px; float:left}
+.search_btn{width:109px; height:34px; margin-left:17px; float:left;margin-top: 10px}
 .blank{width:100%; height:10px; float:left}
 
 /* 帮众 */
@@ -244,8 +244,8 @@ div.flicking_con_a a.on{ background:#f60; color:#fff}
 .zc_left{width:430px; height:300px; float:left;}
 .zc_right{width:430px; height:300px; float:left; }
 .zc_a{width:860px; height:300px; margin:60px;}
-.item{width:360px; height:40px; margin:auto; font-size:16px; color:#666;}
-.item input{width:260px; height:14px; line-height:14px; padding:4px; border:1px solid #d7d7d7}
+.item{width:360px; height:40px; margin:auto; font-size:16px; color:#666}
+.item input{width:360px; height:14px; line-height:14px; padding:4px; border:1px solid #d7d7d7;}
 .item_a{width:360px; height:40px; margin:auto; font-size:16px; color:#666;}
 .item_a a{color:#666; font-size:12px; line-height:40px;}
 .item_a a:hover{color:#f60}
@@ -254,7 +254,7 @@ div.flicking_con_a a.on{ background:#f60; color:#fff}
 .item_a_2 img{margin-left:10px; margin-top:5px;}
 .item_a input{width:80px; height:14px; line-height:20px; line-height:20px; padding:5px; border:1px solid #d7d7d7}
 
-.item_b{width:360px; height:40px; line-height:40px; margin:auto; font-size:16px; color:#666;}
+.item_b{width:360px; height:40px; line-height:40px; margin:auto; font-size:16px; color:#666;margin-top: 50px;margin-right: 20px}
 .item_b_1{width:90px; height:40px; float:left}
 .item_b a{color:#666}
 .item_b a:hover{color:#f60}
@@ -278,6 +278,7 @@ td{width:300px; height:40px; line-height:40px;}
 .zzy_4{width:780px; height:100px; float:left; font-size:12px;border-bottom:1px solid #d7d7d7}
 .zzy_4 li{width:180px; height:50px; line-height:50px; text-align:center; color:#fff; background:#fd8000; float:left; font-size:24px; margin-left:50px;font-family:"微软雅黑"; letter-spacing:4px;}
 .zzy_4 li:hover{background:#fd6000}
+
 .zzy_5{width:680px;float:left; font-size:12px;border-bottom:1px solid #d7d7d7; padding:30px 50px; font-size:14px; line-height:24px;}
 .zzy_6{width:219px; height:60px; line-height:60px; font-size:24px; font-family:"微软雅黑"; font-weight:bold; letter-spacing:3px; color:#f60; text-indent:30px; border-left:1px solid #d7d7d7; background:#eef8ed}
 .zzy_7{width:219px; border:1px solid #d7d7d7;}
