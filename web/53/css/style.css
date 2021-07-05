@@ -14,7 +14,7 @@ a:hover{color:#f60; text-decoration:underline}
 .zc_bg{background:url(../images/zc_bg.jpg) top center no-repeat}
 
 /*top*/
-.top{width:100%; height:145px; background:url(../images/top_pp.jpg) repeat-x}
+.top{width:100%; height:100px; background:url(../images/top_pp.jpg) repeat-x}
 .top_a{width:1000px; height:33px; line-height:33px; margin:1px auto;}
 .top_a3{width:500px; height:33px; line-height:33px; float:left}
 .top_a a{color:#666; letter-spacing:2px; margin-left:5px;}
@@ -122,7 +122,7 @@ div.flicking_con a.on{ background:#f60; color:#fff}
 .blank{width:100%; height:10px; float:left}
 
 /* 帮众 */
-.bz{width:1000px; height:192px; background:#fff; border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; float:left;}
+.bz{margin-left: 83px; width:1000px; height:192px; background:#fff; border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; float:left;}
 .bz_a{width:199px; height:152px; border-right:1px solid #d9d9d9; float:left; background:#fff}
 .bz_a_1{width:198px; height:32px; line-height:40px; font-size:15px; font-weight:bold; color:#363636; text-indent:25px; letter-spacing:2px;}
 .bz_a_2{width:198px; height:117px; font-size:14px; color:#363636}
@@ -137,7 +137,7 @@ div.flicking_con a.on{ background:#f60; color:#fff}
 .link_b li{float:left; width:105px; height:30px; padding:10px;}
 
 /* 底部 */
-.button{width:1000px; margin:auto; height:76px; line-height:30px; font-size:15px; text-align:center; float:left}
+.button{width:1400px; margin:auto; height:76px; line-height:30px; font-size:15px; text-align:center; float:left}
 .button a{color:#363636;}
 .button a:hover{color:#f60}
 
