@@ -244,8 +244,8 @@ div.flicking_con_a a.on{ background:#f60; color:#fff}
 .zc_left{width:430px; height:300px; float:left;}
 .zc_right{width:430px; height:300px; float:left; }
 .zc_a{width:860px; height:300px; margin:60px;}
-.item{width:360px; height:40px; margin:auto; font-size:16px; color:#666;}
-.item input{width:260px; height:14px; line-height:14px; padding:4px; border:1px solid #d7d7d7}
+.item{width:360px; height:40px; margin:auto; font-size:16px; color:#666}
+.item input{width:360px; height:14px; line-height:14px; padding:4px; border:1px solid #d7d7d7;}
 .item_a{width:360px; height:40px; margin:auto; font-size:16px; color:#666;}
 .item_a a{color:#666; font-size:12px; line-height:40px;}
 .item_a a:hover{color:#f60}
@@ -254,7 +254,7 @@ div.flicking_con_a a.on{ background:#f60; color:#fff}
 .item_a_2 img{margin-left:10px; margin-top:5px;}
 .item_a input{width:80px; height:14px; line-height:20px; line-height:20px; padding:5px; border:1px solid #d7d7d7}
 
-.item_b{width:360px; height:40px; line-height:40px; margin:auto; font-size:16px; color:#666;}
+.item_b{width:360px; height:40px; line-height:40px; margin:auto; font-size:16px; color:#666;margin-top: 50px;margin-right: 20px}
 .item_b_1{width:90px; height:40px; float:left}
 .item_b a{color:#666}
 .item_b a:hover{color:#f60}
