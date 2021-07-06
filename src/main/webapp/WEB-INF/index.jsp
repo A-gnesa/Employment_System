@@ -44,7 +44,7 @@
                     <a href="bft.html">
                         <li>个人中心</li>
                     </a>
-                    <a href="index.html">
+                    <a href="index.jsp">
                         <li></li>
                     </a>
                 </ul>
@@ -69,11 +69,11 @@
     <div class="center_b" style="width: 1250px !important;">
         <div class="itab" style="width: 600px !important; height: 300px !important;">
             <dl class="slideBox" style="height: 200px !important; width: 500px !important;">
-                <dt>
-                    <span style="width:162px" class="">帮众进帮</span>
-                    <span style="width:162px; border-left:1px solid #fff; border-right:1px solid #fff;" class="on">雇主进帮</span>
-                    <span style="width:162px" class="">帮 交</span>
-                </dt>
+<!--                <dt>-->
+<!--                    <span style="width:162px" class="">帮众进帮</span>-->
+<!--                    <span style="width:162px; border-left:1px solid #fff; border-right:1px solid #fff;" class="on">雇主进帮</span>-->
+<!--                    <span style="width:162px" class="">帮 交</span>-->
+<!--                </dt>-->
                 <dt style="width:100%; height:2px; float:right"></dt>
                 <dd style="display: none;">
                     <div class="zhuce">
@@ -90,51 +90,12 @@
                             <div class="zhuce_nam1">
                                 <input type="text">
                             </div>
-                            <div class="zhuce_nam2"><a href=""><img src="images/yzm.jpg"></a></div>
+
                             <div class="zhuce_nam"><a href="index_1.html">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="wjmm.html">忘记密码？</a>&nbsp;<a href="zc.html">注册用户</a></div>
                         </div>
                     </div>
                 </dd>
-                <dd style="display: block;">
-                    <div class="zhuce1">
-                        <div class="zhuce_name">
-                            <div class="zhuce_balnk"></div>
-                            <div class="zhuce_nam">
-                                <input type="text">
-                            </div>
-                            <div class="zhuce_balnk1"></div>
-                            <div class="zhuce_nam">
-                                <input type="text">
-                            </div>
-                            <div class="zhuce_balnk2"></div>
-                            <div class="zhuce_nam1">
-                                <input type="text">
-                            </div>
-                            <div class="zhuce_nam2"><a href=""><img src="images/yzm.jpg"></a></div>
-                            <div class="zhuce_nam"><a href="index_1.html">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="wjmm.html">忘记密码？</a>&nbsp;<a href="zc_bz.html">注册用户</a></div>
-                        </div>
-                    </div>
-                </dd>
-                <dd style="display: none;">
-                    <div class="zhuce">
-                        <div class="zhuce_name">
-                            <div class="zhuce_balnk"></div>
-                            <div class="zhuce_nam">
-                                <input type="text">
-                            </div>
-                            <div class="zhuce_balnk1"></div>
-                            <div class="zhuce_nam">
-                                <input type="text">
-                            </div>
-                            <div class="zhuce_balnk2"></div>
-                            <div class="zhuce_nam1">
-                                <input type="text">
-                            </div>
-                            <div class="zhuce_nam2"><a href=""><img src="images/yzm.jpg"></a></div>
-                            <div class="zhuce_nam"><a href="index_1.html">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="wjmm.html">忘记密码？</a>&nbsp;<a href="zc_bj.html">注册用户</a></div>
-                        </div>
-                    </div>
-                </dd>
+
             </dl>
         </div>
         <div class="center_gg" style="width: 620px !important;">
