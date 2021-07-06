@@ -2,6 +2,7 @@ package com.dao.recruitDao;
 
 import com.dao.baseDao;
 import com.po.Recruit0430;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -52,4 +53,18 @@ public class RecruitDao0430 extends baseDao implements RecruitlDao0430 {
         session.commit();
         return i > 0;
     }
+
+    @Override
+    public List<Recruit0430> findRecruitByKeyword(@Param("keyword") String keyword) {
+        session = factory.openSession();
+        return session.selectList("findRecruitByKeyword",keyword);
+    }
+
+    @Override
+    public List<Recruit0430> findRecruitByJobName(String JobName) {
+        session = factory.openSession();
+        return session.selectList("findRecruitByJobName",JobName);
+    }
+
+
 }

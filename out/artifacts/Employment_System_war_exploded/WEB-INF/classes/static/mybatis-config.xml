@@ -23,6 +23,9 @@
     </environments>
     <mappers>
         <mapper resource="static/mapper/userMapper.xml"/>
+        <mapper resource="static/mapper/applicationMapper.xml"/>
         <mapper resource="static/mapper/jobMapper.xml"/>
+        <mapper resource="static/mapper/applicationMapper.xml"/>
+        <mapper resource="static/mapper/RecruitMapper.xml"/>
     </mappers>
 </configuration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.po.PersonalInformation0308">
+    <insert id="insertAllInformation" parameterType="com.po.PersonalInformation0308" >
+        insert into Person (UID,communication,school,sex,name,age) values (#{UID},#{communication},#{school},#{sex},#{name},#{age})
+    </insert>
+    <select id="selectInformationBYUID" parameterType="com.po.User" resultType="com.po.PersonalInformation0308">
+        select * from Person where UID = #{UID}
+    </select>
+    <update id="updateInformationBYUID" parameterType="com.po.PersonalInformation0308">
+        update Person set communication = #{communication}, school = #{school},
+                          sex = #{sex},name =#{name} ,age=#{age} where UID = #{UID}
+    </update>
+</mapper>

@@ -15,7 +15,10 @@ public  class UserDao extends baseDao implements UserDaoI{
 
     @Override
     public boolean addUser(User user) {
-        return false;
+        session = factory.openSession();
+        int i =session.insert("addUser",user);
+        session.commit();
+        return i>0;
     }
 
     @Override
