@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 public class applicationService {
-    @Resource(name = "")
+    @Resource(name = "ApplicationDao")
     ApplicationDao0403 applicationDao0403;
 //    根据user中的uid和recruit中的rid 增加application一行数据
     public boolean insertApplication(User user, Recruit0430 recruit0430){
