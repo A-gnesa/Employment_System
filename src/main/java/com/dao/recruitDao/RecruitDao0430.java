@@ -2,9 +2,10 @@ package com.dao.recruitDao;
 
 import com.dao.baseDao;
 import com.po.Recruit0430;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+@Repository("RecruitDao0430")
 public class RecruitDao0430 extends baseDao implements RecruitlDao0430 {
     @Override
     public List<Recruit0430> findRecruitBycity(Recruit0430 recruit0430) {

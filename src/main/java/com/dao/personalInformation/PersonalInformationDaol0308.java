@@ -3,7 +3,9 @@ package com.dao.personalInformation;
 import com.dao.baseDao;
 import com.po.PersonalInformation0308;
 import com.po.User;
+import org.springframework.stereotype.Repository;
 
+@Repository("PersonalInformationDao")
 public class PersonalInformationDaol0308 extends baseDao implements PersonalInformationDao0308 {
 
     @Override

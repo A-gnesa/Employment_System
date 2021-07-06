@@ -2,9 +2,10 @@ package com.dao.userDao;
 
 import com.dao.baseDao;
 import com.po.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+@Repository("UserDao")
 public  class UserDao extends baseDao implements UserDaoI{
     @Override
     public List<User> findALLUser() {

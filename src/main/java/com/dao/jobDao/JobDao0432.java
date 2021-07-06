@@ -2,9 +2,10 @@ package com.dao.jobDao;
 
 import com.dao.baseDao;
 import com.po.Job0432;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+@Repository("JobDao")
 public class JobDao0432 extends baseDao implements JobDaol0432 {
     @Override
     public List<Job0432> findAll() {

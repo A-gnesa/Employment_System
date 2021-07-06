@@ -6,9 +6,10 @@ import com.po.User;
 import com.tools.sqlSessionFactory;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+@Repository("Application")
 public class ApplicationDao0403 extends baseDao implements ApplicationDaol0403{
 
     @Override
