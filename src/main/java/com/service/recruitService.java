@@ -20,11 +20,13 @@ public class recruitService {
     ApplicationDao0403 applicationDao0403;
 //    根据职业名称分类 返回分类后的结果
     public List<Recruit0430> assort(Job0432 job0432){
-            return null;
+        return  recruitDao0430.findRecruitByJobName(job0432.getJname());
+
     }
 //    搜索 (暂时不用)
     public List<Recruit0430> search(String keyword){
-        return null;
+        return recruitDao0430.findRecruitByKeyword(keyword);
+
     }
 //    发布 （根据Recruit 增加一条Recruit信息）
     public boolean insertRecruit(Recruit0430 recruit0430){
