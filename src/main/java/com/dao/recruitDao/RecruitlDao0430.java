@@ -1,6 +1,7 @@
 package com.dao.recruitDao;
 
 import com.po.Recruit0430;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,4 +13,5 @@ public interface RecruitlDao0430 {
     boolean delete(Recruit0430 recruit0430);//删除根据PID
     List<Recruit0430> findRecruitBytime();//根据时间从近到远查询
     boolean add(Recruit0430 recruit0430);//添加
+    List<Recruit0430> findRecruitByKeyword(@Param("keyword") String keyword);
 }
