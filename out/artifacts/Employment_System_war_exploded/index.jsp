@@ -9,16 +9,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>网站模板 — 首页</title>
-  <link href="/css/select2.css" rel="stylesheet">
+  <link href="${pageContext.request.contextPath}/css/select2.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="/js/search/area.js"></script>
-  <script type="text/javascript" src="/js/search/location.js"></script>
-  <script type="text/javascript" src="/js/search/select2.js"></script>
-  <script type="text/javascript" src="/js/search/select2_locale_zh-CN.js"></script>
-  <script type="text/javascript" src="/js/jquery.touchSlider.js"></script>
-  <script type="text/javascript" src="/js/js.js"></script>
-  <script type="text/javascript" src="/js/ks-switch.pack.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/area.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/location.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2_locale_zh-CN.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.touchSlider.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/js.js"></script>
+  <script type="text/javascript" src="${pageContext.request.contextPath}/js/ks-switch.pack.js"></script>
 </head>
 
 <body class="bs_bg">

@@ -101,7 +101,7 @@
         <div class="center_gg" style="width: 620px !important;">
             <div class="center_gga">
                 <div class="center_gga_1">精选事务公告</div>
-                <div class="more"><a href="bft_more.html">更多&gt;&gt;</a></div>
+                <div class="more"><a href="bft_more.html"></a></div>
             </div>
             <div class="center_ggb">
                 <ul>
