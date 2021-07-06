@@ -9,7 +9,7 @@
     <select id="findRecruitByEID" resultType="com.po.Recruit0430">
         select * from recruit where EID = #{EID};
     </select>
-    <select id="findRecruitByrequirement" resultType="com.po.Recruit0430">
+    <select id="findRecruitByrequirement" resultType="String">
         select * from recruit where requirement like '%${requirement}%'
     </select>
     <select id="findALLRecruit" resultType="com.po.Recruit0430">

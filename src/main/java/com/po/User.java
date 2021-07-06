@@ -45,7 +45,7 @@ public class User {
         this.application0403List = application0403List;
     }
 
-    public User(Integer UID, Integer AID, Date reqTime, String accountNumber, String password, PersonalInformation0308 personalInformation0308) {
+    public User(Integer UID, Integer AID, Timestamp reqTime, String accountNumber, String password, PersonalInformation0308 personalInformation0308) {
         this.UID = UID;
         this.AID = AID;
         this.reqTime = reqTime;
@@ -82,7 +82,7 @@ public class User {
         return reqTime;
     }
 
-    public void setReqTime(Date reqTime) {
+    public void setReqTime(Timestamp reqTime) {
         this.reqTime = reqTime;
     }
 
@@ -105,7 +105,7 @@ public class User {
     public User() {
     }
 
-    public User(Integer UID, Integer AID, Date reqTime, String accountNumber, String password) {
+    public User(Integer UID, Integer AID, Timestamp reqTime, String accountNumber, String password) {
         this.UID = UID;
         this.AID = AID;
         this.reqTime = reqTime;

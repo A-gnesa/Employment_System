@@ -22,4 +22,11 @@ public  class UserDao extends baseDao implements UserDaoI{
     public boolean updateUser(User user) {
         return false;
     }
+
+    @Override
+    public User findUserByAccountNumber(String username) {
+        session = factory.openSession();
+        return session.selectOne("findUserByAccountNumber",username);
+    }
+
 }

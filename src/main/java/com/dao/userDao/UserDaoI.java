@@ -11,5 +11,6 @@ public interface UserDaoI {
     boolean addUser(User user);
     boolean updateUser(User user);
 //    User selectUserByUID(User user);
+    User findUserByAccountNumber(String username);
 
 }
