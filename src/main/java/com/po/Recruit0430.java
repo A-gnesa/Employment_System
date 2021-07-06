@@ -30,11 +30,9 @@ public class Recruit0430 {
     public Integer getPID() {
         return PID;
     }
-
     public void setPID(Integer PID) {
         this.PID = PID;
     }
-
     public Integer getUID() {
         return UID;
     }

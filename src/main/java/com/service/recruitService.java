@@ -18,9 +18,9 @@ public class recruitService {
     RecruitDao0430 recruitDao0430;
     @Resource(name = "ApplicationDao")
     ApplicationDao0403 applicationDao0403;
-//    根据职业ID分类 返回分类后的结果
+//    根据职业名称分类 返回分类后的结果
     public List<Recruit0430> assort(Job0432 job0432){
-        return null;
+            return null;
     }
 //    搜索 (暂时不用)
     public List<Recruit0430> search(String keyword){
@@ -28,7 +28,7 @@ public class recruitService {
     }
 //    发布 （根据Recruit 增加一条Recruit信息）
     public boolean insertRecruit(Recruit0430 recruit0430){
-        return false;
+        return recruitDao0430.add(recruit0430);
     }
 
 }
