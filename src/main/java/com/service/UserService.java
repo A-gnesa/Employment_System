@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.rmi.server.UID;
+import java.sql.Timestamp;
+import java.util.Date;
 
 @Service("UserService")
 public class UserService {
@@ -29,20 +31,27 @@ public class UserService {
     //    注册 成功返回true 不成功返回false 注册成功的同时增加一条主键为
     //     user的UID的个人信息
     public boolean register(String accout,String password){
-        User user=userDao.findUserByAccountNumber(accout);
-        if(user.getAccountNumber()==null||user.getPassword()==null||user.getAccountNumber().equals(accout))
+        User user = new User();
+        userDao.findUserByAccountNumber(accout);
+
+//        if (user != null){
+//            if (userDao.findUserByAccountNumber(accout).equals())
+//        }
+        if(accout.equals("")||password.equals("")||accout.equals( user.getAccountNumber()))
             return false;
         else {
             User u = new User();
             u.setAccountNumber(accout);
             u.setPassword(password);
+            Timestamp t = new Timestamp(new Date().getTime());
+            u.setReqTime(t);
             return userDao.addUser(u);
         }
 
     }
 //    修改Information 成功true 失败false
 
-    public boolean updateUser(PersonalInformation0308 personalInformation0308) {
-        return personalInformationDaol0308.updateInformationBYUID(personalInformation0308);
+    public boolean updateInformationBYUID(PersonalInformation0308 p) {
+        return personalInformationDaol0308.updateInformationBYUID(p);
     }
 }
