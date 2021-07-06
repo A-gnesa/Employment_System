@@ -61,6 +61,17 @@ a:hover {
     background: url(../images/zc_bg.jpg) top center no-repeat
 }
 
+
+/*发布中心*/
+.border {
+    border: 1px solid #666666;
+}
+.textarea {
+    transform:translate(5.5em, -2em);
+}
+/*发布中心*/
+
+
 /*1111111111111111111111111111111111111*/
 
 .top_bg{
