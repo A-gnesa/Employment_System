@@ -48,10 +48,8 @@ a:hover {
     background: url(../images/bft_bg.jpg) top center no-repeat
 }
 
-.bj_bg .zihan {
-    background: url(../images/bj_bg.jpg);
-    margin: auto;
-}
+
+
 
 .bz_bg {
     background: url(../images/bz_bg.jpg) top center no-repeat
@@ -62,7 +60,8 @@ a:hover {
 }
 
 .zihan {
-    margin: auto !important;
+    margin-left: 50%;
+    transform:translate(-500px,10px);
 }
 /*发布中心*/
 .border {
@@ -71,6 +70,11 @@ a:hover {
 .textarea {
     transform:translate(5.5em, -2em);
 }
+.zp_bottom {
+    height: 2em;
+    width: 5em;
+}
+
 /*发布中心*/
 
 
@@ -105,7 +109,7 @@ a:hover {
 }
 
 .bzz {
-    background-color: transparent;
+    background-color: white;
     height: auto;
     width: 1000px;
     margin: auto;
@@ -1585,9 +1589,7 @@ td {
     background: #fd6000
 }
 
-.zihan {
-    margin: auto;
-}
+
 
 .zzy_5 {
     width: 680px;
