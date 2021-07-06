@@ -14,4 +14,5 @@ public interface RecruitlDao0430 {
     List<Recruit0430> findRecruitBytime();//根据时间从近到远查询
     boolean add(Recruit0430 recruit0430);//添加
     List<Recruit0430> findRecruitByKeyword(@Param("keyword") String keyword);
+    List<Recruit0430> findRecruitByJobName(String JobName);
 }

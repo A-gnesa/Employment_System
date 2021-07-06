@@ -60,5 +60,11 @@ public class RecruitDao0430 extends baseDao implements RecruitlDao0430 {
         return session.selectList("findRecruitByKeyword",keyword);
     }
 
+    @Override
+    public List<Recruit0430> findRecruitByJobName(String JobName) {
+        session = factory.openSession();
+        return session.selectList("findRecruitByJobName",JobName);
+    }
+
 
 }

@@ -25,5 +25,6 @@ class RecruitDao0430Test {
 //        System.out.println(recruitDao0430.delete(recruit));
 //        System.out.println(recruitDao0430.findRecruitBytime());
         System.out.println(recruitDao0430.findRecruitByKeyword("深圳"));
+        System.out.println(recruitDao0430.findRecruitByJobName("web"));
     }
 }

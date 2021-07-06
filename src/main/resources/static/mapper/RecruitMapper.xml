@@ -26,4 +26,8 @@
     <select id="add" resultType="com.po.Recruit0430">
         insert into recruit (city,UID,EID,requirement,time,salary,companyname,companyInformation) values (#{city},#{UID},#{EID},#{requirement},#{time},#{salary},#{companyname},#{companyInformation})
     </select>
+    <select id="findRecruitByJobName" resultType="com.po.Recruit0430">
+        select * from recruit where EID in (select EID from Job where jname = #{_parameter})
+    </select>
+
 </mapper>
