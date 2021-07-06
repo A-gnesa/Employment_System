@@ -1,13 +1,19 @@
 package com.po;
 
+import java.sql.Timestamp;
 import java.util.Date;
+import java.util.List;
 
 public class User {
     private Integer UID;
     private Integer AID;
-    private Date reqTime;
+    private Timestamp reqTime;
     private String accountNumber;
     private String password;
+    private PersonalInformation0308 personalInformation0308;
+    private List<Recruit0430> recruit0430List;
+    private List<Application0403> application0403List;
+
 
     @Override
     public String toString() {
@@ -17,7 +23,43 @@ public class User {
                 ", reqTime=" + reqTime +
                 ", accountNumber='" + accountNumber + '\'' +
                 ", password='" + password + '\'' +
+                ", personalInformation0308=" + personalInformation0308 +
+                ", recruit0430List=" + recruit0430List +
+                ", application0403List=" + application0403List +
                 '}';
+    }
+
+    public List<Recruit0430> getRecruit0430List() {
+        return recruit0430List;
+    }
+
+    public void setRecruit0430List(List<Recruit0430> recruit0430List) {
+        this.recruit0430List = recruit0430List;
+    }
+
+    public List<Application0403> getApplication0403List() {
+        return application0403List;
+    }
+
+    public void setApplication0403List(List<Application0403> application0403List) {
+        this.application0403List = application0403List;
+    }
+
+    public User(Integer UID, Integer AID, Timestamp reqTime, String accountNumber, String password, PersonalInformation0308 personalInformation0308) {
+        this.UID = UID;
+        this.AID = AID;
+        this.reqTime = reqTime;
+        this.accountNumber = accountNumber;
+        this.password = password;
+        this.personalInformation0308 = personalInformation0308;
+    }
+
+    public PersonalInformation0308 getPersonalInformation0308() {
+        return personalInformation0308;
+    }
+
+    public void setPersonalInformation0308(PersonalInformation0308 personalInformation0308) {
+        this.personalInformation0308 = personalInformation0308;
     }
 
     public Integer getUID() {
@@ -40,7 +82,7 @@ public class User {
         return reqTime;
     }
 
-    public void setReqTime(Date reqTime) {
+    public void setReqTime(Timestamp reqTime) {
         this.reqTime = reqTime;
     }
 
@@ -63,7 +105,7 @@ public class User {
     public User() {
     }
 
-    public User(Integer UID, Integer AID, Date reqTime, String accountNumber, String password) {
+    public User(Integer UID, Integer AID, Timestamp reqTime, String accountNumber, String password) {
         this.UID = UID;
         this.AID = AID;
         this.reqTime = reqTime;

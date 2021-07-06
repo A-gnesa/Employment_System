@@ -1,11 +1,8 @@
-package com.dao;
+package com.dao.test;
 
 
+import com.dao.jobDao.JobDao0432;
 import com.po.Job0432;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 class JobDao0432Test {
     public static void main(String[] args) {
