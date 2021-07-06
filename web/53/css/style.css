@@ -61,7 +61,9 @@ a:hover {
     background: url(../images/zc_bg.jpg) top center no-repeat
 }
 
-
+.zihan {
+    margin: auto !important;
+}
 /*发布中心*/
 .border {
     border: 1px solid #666666;
@@ -92,8 +94,10 @@ a:hover {
 
 .bzz_c_p {
     display: inline;
-    font: 14px black;
+    font-size: 14px !important;
+    color: black!important;
     line-height: 40px;
+    font-weight: 400!important;
 }
 
 .bzz_text {
@@ -274,6 +278,7 @@ a:hover {
     width: 125px;
     height: 39px;
     float: left;
+    text-align: center;
 }
 
 .center_ggb {
