@@ -17,6 +17,7 @@ class UserDaoTest {
         user.setPassword("zsh");
         user.setAID(1);
         System.out.println(u.addUser(user));
+        System.out.println(u.selectUserByUID(user.setUID(7)));
     }
 
 }

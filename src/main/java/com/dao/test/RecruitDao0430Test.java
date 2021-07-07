@@ -13,6 +13,7 @@ class RecruitDao0430Test {
     public static void main(String[] args) {
         RecruitDao0430 recruitDao0430 = new RecruitDao0430();
         Timestamp t = new Timestamp(new Date().getTime());
+        Recruit0430 recruit = new Recruit0430();
 //        recruit.setCity("深圳");
 //        recruit.setRequirement("20k");
 //        recruit.setEID(2);\
@@ -24,7 +25,7 @@ class RecruitDao0430Test {
 
 //        System.out.println(recruitDao0430.findALLRecruit());
 //        System.out.println(recruitDao0430.findRecruitBycity(recruit));
-//        System.out.println(recruitDao0430.findRecruitByEID(recruit));
+        System.out.println(recruitDao0430.findRecruitByEID(recruit));
 //        System.out.println(recruitDao0430.findRecruitByrequirement(recruit));
 //        System.out.println(recruitDao0430.delete(recruit));
 //        System.out.println(recruitDao0430.findRecruitBytime());

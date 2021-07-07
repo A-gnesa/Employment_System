@@ -15,4 +15,5 @@
     <select id="findALLApplication" resultType="com.po.Application0403">
         select * from application;
     </select>
+
 </mapper>

@@ -66,8 +66,9 @@ public class User {
         return UID;
     }
 
-    public void setUID(Integer UID) {
+    public Integer setUID(Integer UID) {
         this.UID = UID;
+        return UID;
     }
 
     public Integer getAID() {

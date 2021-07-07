@@ -27,8 +27,9 @@ public  class UserDao extends baseDao implements UserDaoI{
     }
 
     @Override
-    public User selectUserByUID(User user) {
-        return null;
+    public User selectUserByUID(Integer u) {
+        session = factory.openSession();
+        return session.selectOne("selectUserByUID", u);
     }
 
     @Override

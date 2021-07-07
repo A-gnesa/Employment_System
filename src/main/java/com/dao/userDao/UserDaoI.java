@@ -10,7 +10,7 @@ public interface UserDaoI {
     List<User> findALLUser();
     boolean addUser(User user);
     boolean updateUser(User user);
-    User selectUserByUID(User user);
+    User selectUserByUID(Integer user);
     User findUserByAccountNumber(String username);
 
 }

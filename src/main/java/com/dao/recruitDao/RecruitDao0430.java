@@ -15,15 +15,15 @@ public class RecruitDao0430 extends baseDao implements RecruitlDao0430 {
     }
 
     @Override
-    public List<Recruit0430> findRecruitByEID(Recruit0430 Recruit0430) {
+    public List<Recruit0430> findRecruitByEID(Recruit0430 recruit0430) {
         session = factory.openSession();
-        return session.selectList("findRecruitByEID", Recruit0430);
+        return session.selectList("findRecruitByEID", recruit0430);
     }
 
     @Override
-    public List<Recruit0430> findRecruitByrequirement(Recruit0430 Recruit0430) {
+    public List<Recruit0430> findRecruitByrequirement(Recruit0430 recruit0430) {
         session = factory.openSession();
-        return session.selectList("findRecruitByrequirement", Recruit0430);
+        return session.selectList("findRecruitByrequirement", recruit0430);
     }
 
     @Override

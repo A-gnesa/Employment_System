@@ -13,5 +13,8 @@
     <select id="findUserByAccountNumber" parameterType="String" resultType="com.po.User">
         select * from User where accountNumber = #{accountNumber}
     </select>
+    <select id="selectUserByUID" parameterType="Integer" resultType="com.po.User">
+        select * from User where UID = #{UID}
+    </select>
 
 </mapper>
