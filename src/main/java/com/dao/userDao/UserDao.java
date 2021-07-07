@@ -27,6 +27,11 @@ public  class UserDao extends baseDao implements UserDaoI{
     }
 
     @Override
+    public User selectUserByUID(User user) {
+        return null;
+    }
+
+    @Override
     public User findUserByAccountNumber(String username) {
         session = factory.openSession();
         return session.selectOne("findUserByAccountNumber",username);

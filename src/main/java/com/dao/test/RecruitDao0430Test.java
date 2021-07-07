@@ -4,15 +4,19 @@ package com.dao.test;
 import com.dao.recruitDao.RecruitDao0430;
 import com.po.Recruit0430;
 
+import java.sql.Time;
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.Locale;
 
 class RecruitDao0430Test {
     public static void main(String[] args) {
         RecruitDao0430 recruitDao0430 = new RecruitDao0430();
-//        Recruit0430 recruit = new Recruit0430("2000-11-16 20:18:06", Locale.ENGLISH);
+        Timestamp t = new Timestamp(new Date().getTime());
 //        recruit.setCity("深圳");
 //        recruit.setRequirement("20k");
-//        recruit.setEID(2);
+//        recruit.setEID(2);\
+       //recruit.settime("2021-07-04 10:50:25")
 //        recruit.setUID(2);
 //        recruit.setSalary("20k-30k");
 //        recruit.setCompanyname("思维造物");

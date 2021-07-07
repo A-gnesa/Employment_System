@@ -17,11 +17,12 @@ public class applicationService {
     }
 //    根据招聘表主键查找所有有关的个人信息
     public List<PersonalInformation0308> findPersonalInformationByPID(Recruit0430 recruit0430){
-        return null;
+        recruit0430.getUID();
+        return applicationDao0403.findALLapplication();
     }
 //    根据用户主键删除招聘信息
     public boolean deleteApplicationByUID(User user){
-        return false;
+        return applicationDao0403.deleteByUID(user);
     }
 
 }
