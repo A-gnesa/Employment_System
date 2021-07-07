@@ -496,20 +496,19 @@ div.flicking_con a.on {
 .zhuce {
     width: 488px;
     height: 180px;
-    background: url(../images/zhuce_bg.jpg) center top no-repeat
 }
 
 .zhuce1 {
     width: 488px;
     height: 180px;
-    background: url(../images/zhuce_bg1.jpg) center top no-repeat
+
 }
 
 .zhuce_name {
-    width: 132px;
+
     height: 163px;
     margin-left: 265px;
-    float: left
+    float: right
 }
 
 .zhuce_balnk {
