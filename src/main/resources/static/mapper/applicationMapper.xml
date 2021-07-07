@@ -9,4 +9,10 @@
     <select id="selectApplicationByTime" resultType="com.po.Application0403">
         select * from application order by applicationTime desc
     </select>
+    <select id="add" resultType="com.po.Application0403">
+        insert into recruit (RID,PID,applicationTime) values (#{RID},#{PID},#{ApplicationTime})
+    </select>
+    <select id="findALLApplication" resultType="com.po.Application0403">
+        select * from recruit;
+    </select>
 </mapper>

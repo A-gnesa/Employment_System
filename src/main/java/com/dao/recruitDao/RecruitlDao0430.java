@@ -13,6 +13,6 @@ public interface RecruitlDao0430 {
     boolean delete(Recruit0430 recruit0430);//删除根据PID
     List<Recruit0430> findRecruitBytime();//根据时间从近到远查询
     boolean add(Recruit0430 recruit0430);//添加
-    List<Recruit0430> findRecruitByKeyword(@Param("keyword") String keyword);
-    List<Recruit0430> findRecruitByJobName(String JobName);
+    List<Recruit0430> findRecruitByKeyword(@Param("keyword") String keyword);//关键字查询
+    List<Recruit0430> findRecruitByJobName(String JobName);//根据工作名称查询
 }
