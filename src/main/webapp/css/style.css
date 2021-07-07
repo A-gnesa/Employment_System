@@ -38,54 +38,7 @@ a:hover {
     color: #f60;
     letter-spacing: 1px
 }
-/*1111111111111111111111111111111111111*/
 
-.top_bg{
-    width: 100%;
-    height: 108px;
-    margin: 0 auto;
-    background: url(../images/1.jpg) center no-repeat;
-    margin-top: 2px;
-}
-
-.bzz_c .title1 {
-    font-size: 18px;
-    font-weight: bold;
-    color: rgb(255, 102, 0);
-    letter-spacing: 5px;
-    line-height: 46px;
-}
-
-.bzz_c_p {
-    display: inline;
-    font: 14px black;
-    line-height: 40px;
-}
-
-.bzz_text {
-    border: 1px solid;
-}
-
-.bzz {
-    background-color: transparent;
-    height: auto;
-    width: 1000px;
-    margin: auto;
-}
-
-.bzz_c {
-    height: 200px;
-    width: 400px;
-    margin: 0 auto;
-}
-
-.title1 {
-    margin-top: 60px;
-}
-
-
-
-/*1111111111111111111111111111111111111*/
 /*背景*/
 .bs_bg {
     background: url(../images/bs_bg.jpg) top center no-repeat
@@ -95,8 +48,9 @@ a:hover {
     background: url(../images/bft_bg.jpg) top center no-repeat
 }
 
-.bj_bg {
-    background: url(../images/bj_bg.jpg) top center no-repeat
+.bj_bg .zihan {
+    background: url(../images/bj_bg.jpg);
+    margin: auto;
 }
 
 .bz_bg {
@@ -251,7 +205,7 @@ a:hover {
     border-bottom: 1px solid #d7d7d7;
     background: #fbfbfb url(../images/gg_pic.jpg) left no-repeat;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 3px;
     text-indent: 12px;
@@ -628,7 +582,7 @@ div.flicking_con a.on {
 .search_blank {
     width: 1000px;
     height: 25px;
-    float: left
+    float: left;
 }
 
 .search_a {
@@ -662,7 +616,8 @@ div.flicking_con a.on {
     width: 109px;
     height: 34px;
     margin-left: 17px;
-    float: left
+    float: left;
+    margin-top: 10px
 }
 
 .blank {
@@ -740,13 +695,13 @@ div.flicking_con a.on {
 .link_a {
     width: 110px;
     height: 50px;
-    float: left;
+    float: left
 }
 
 .link_b {
     width: 888px;
     height: 50px;
-    float: left;
+    float: left
 }
 
 .link_b li {
@@ -1249,7 +1204,92 @@ div.flicking_con_a a.on {
     color: #fff
 }
 
+/* 帮主 */
+.bzz {
+    width: 998px;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+}
 
+.bzz_a {
+    width: 860px;
+    height: 550px;
+    margin: 60px;
+}
+
+.bzz_left {
+    width: 430px;
+    height: 550px;
+    float: left;
+}
+
+.bzz_b {
+    width: 430px;
+    height: 165px;
+    line-height: 26px;
+    border-bottom: 1px dashed #b6b6b6;
+}
+
+.bzz_b p {
+    font-size: 14px;
+    color: #333
+}
+
+.bzz_b span {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    line-height: 46px;
+    color: #f60;
+    letter-spacing: 5px
+}
+
+.bzz_c {
+    width: 430px;
+    height: 115px;
+    line-height: 26px;
+    border-bottom: 1px dashed #b6b6b6;
+}
+
+.bzz_c p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    line-height: 46px;
+    color: #f60;
+    letter-spacing: 5px
+}
+
+.bzz_d p {
+    line-height: 32px;
+}
+
+.bzz_d {
+    width: 430px;
+    height: 270px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #333;
+}
+
+.bzz_d img {
+    margin-left: 30px;
+}
+
+.bzz_d span {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    line-height: 46px;
+    color: #f60;
+    letter-spacing: 5px
+}
+
+.bzz_e {
+    width: 50px;
+    height: 100px;
+    float: left
+}
 
 /* 注册 */
 .zc_left {
@@ -1479,6 +1519,10 @@ td {
 
 .zzy_4 li:hover {
     background: #fd6000
+}
+
+.zihan {
+    margin: auto;
 }
 
 .zzy_5 {
