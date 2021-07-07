@@ -1,41 +1,40 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>网站模板 — 帮主</title>
-    <link href="css/select2.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="js/search/area.js"></script>
-    <script type="text/javascript" src="js/search/location.js"></script>
-    <script type="text/javascript" src="js/search/select2.js"></script>
-    <script type="text/javascript" src="js/search/select2_locale_zh-CN.js"></script>
-    <script type="text/javascript" src="js/jquery.touchSlider.js"></script>
-    <script type="text/javascript" src="js/js.js"></script>
-    <script type="text/javascript" src="js/ks-switch.pack.js"></script>
+    <title>登录</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/select2.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/area.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/location.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2_locale_zh-CN.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.touchSlider.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/js.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/ks-switch.pack.js"></script>
 </head>
 
-<body class="bz_bg">
+<body class="zc_bg">
     <!-- top内容开始 -->
-    <div class="top">
-
+    <div class="top" style="height: 100px">
         <div class="top_bg">
             <div class="top_bga">
                 <div class="top_bga_1"></div>
                 <div class="top_bga_2">
                     <ul>
-                        <a href="../personalCenter.jsp">
-                            <li>首页</li>
+                        <a href="bz.html">
+                            <li>帮 主</li>
                         </a>
                         <a href="bj.html">
-                            <li>分类</li>
+                            <li>帮 交</li>
                         </a>
                         <a href="bft.html">
-                            <li>个人中心</li>
+                            <li>帮分舵</li>
                         </a>
                         <a href="index.html">
-                            <li>发布中心</li>
+                            <li>帮 首</li>
                         </a>
                     </ul>
                 </div>
@@ -50,31 +49,36 @@
     <div class="nr">
         <div class="bzz">
             <div class="center_gga">
-                <div class="center_gga_1">&nbsp;管&nbsp;&nbsp;理</div>
+                <div class="center_gga_1">&nbsp;登&nbsp;&nbsp;陆</div>
             </div>
-            <div class="bzz_a">
-                <div class="bzz_left">
-                    <div class="bzz_b">
-                        <p><span>招聘中心</span></p>
-                        <p>★ 在本页面中进行发布招聘信息</p>
-                        <p>★ 填写相应的招聘需求</p>
-                    </div>
-                    <div class="bzz_d">
-                        <p><span>网站建议</span></p>
-                        <p>
-                            类型：
-                            <input type="radio" name="ts" value="1" />&nbsp;改进网站
-                            <input type="radio" name="ts" value="1" />&nbsp;创意想法
-                            <input type="radio" name="ts" value="1" />&nbsp;其他建议
-                        </p>
-                        <p class="item">
-                            <div class="bzz_e">内容：</div>
-                            <textarea style="width:360px; height:100px; border:1px solid #c9c9c9; color:#666; padding:5px;" name="remark"></textarea>
-                        </p>
-                        <p>&nbsp;&nbsp;&nbsp;<a href="#"><img src="images/tijiao.jpg" /></a><a href="#"><img src="images/chongzhi.jpg" /></a></p>
-                    </div>
+            <div class="zc_a">
+                <div class="zc_left"><img src="images/7.jpg" usemap="#Map" border="0" />
+                    <map name="Map" id="Map">
+                        <area shape="rect" coords="67,37,98,66" href="#" />
+                        <area shape="rect" coords="111,36,146,65" href="#" />
+                        <area shape="rect" coords="162,37,190,66" href="#" />
+                    </map>
                 </div>
-                <div class="bzz_left"><img src="images/bzz_1.jpg" /></div>
+                <form action="/userLogin" method="post">
+
+                <div class="zc_right">
+                    <div class="item_c">
+                        <label>用户名</label>
+                    </div>
+                    <div class="item">
+                        <input type="text" name="account"/>
+                    </div>
+                    <div class="item_c">
+                        <label>密&nbsp;码：</label>
+                    </div>
+                    <div class="item">
+                        <input type="password" name="password"/>
+                    </div>
+
+                    <input class="item_b" type="submit" src="images/dl.jpg" >
+
+                </div>
+                </form>
             </div>
         </div>
         <!-- 友情链接开始 -->

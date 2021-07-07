@@ -13,4 +13,12 @@
         update Person set communication = #{communication}, school = #{school},
                           sex = #{sex},name =#{name} ,age=#{age} where UID = #{UID}
     </update>
+    <select id="selectInformationBYAccount" parameterType="com.po.User" resultType="com.po.PersonalInformation0308">
+        select * from Person where UID in ( select UID from User where accountNumber = #{accountNumber})
+    </select>
+    <update id="updateInformationBYAccount" parameterType="com.po.User">
+        update Person set communication = #{communication}, school = #{school},
+                          sex = #{sex},name =#{name} ,age=#{age} where UID in
+                        (select UID from User where accountNumber = #{accountNumber})
+    </update>
 </mapper>

@@ -1208,6 +1208,7 @@ div.flicking_con_a a.on {
     width: 998px;
     border: 1px solid #d7d7d7;
     background: #fff;
+    margin-left: 153px;
 }
 
 .bzz_a {
@@ -1247,6 +1248,7 @@ div.flicking_con_a a.on {
     width: 430px;
     height: 115px;
     line-height: 26px;
+    float: right;
     border-bottom: 1px dashed #b6b6b6;
 }
 

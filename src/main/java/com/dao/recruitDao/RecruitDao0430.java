@@ -67,4 +67,8 @@ public class RecruitDao0430 extends baseDao implements RecruitlDao0430 {
     }
 
 
+    public Recruit0430 findRecruitByPID(Recruit0430 r) {
+        session = factory.openSession();
+        return session.selectOne("findRecruitByPID",r);
+    }
 }

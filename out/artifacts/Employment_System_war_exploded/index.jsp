@@ -56,7 +56,7 @@
   <div class="search_c">
     <input class="s_t" style="width:690px; height:17px; padding:8px; font-size:14px; color:#b8b8b8; letter-spacing:2px;margin-top: 10px" onblur="if(this.value==''){this.value='请输入职位名、公司名等关键词';this.style.color='#aaa'}" onfocus="if(this.value=='请输入职位名 公司名等关键字'){this.value='';this.style.color='#666'}" value="请输入职位名 公司名等关键字" name="keyword" >
   </div>
-  <div class="search_btn"><a href="bft_more.html"><img src="images/search_btn.jpg"></a></div>
+  <div class="search_btn"><a href="bft_more.jsp"><img src="images/search_btn.jpg"></a></div>
 </div>
 <!-- 搜索内容结束 -->
 <!-- 公告和介绍开始  -->
@@ -83,12 +83,12 @@
                   <input type="password" name="password">
                 </div>
                 <div class="zhuce_balnk2"></div>
-                <input class="zhuce_nam" style="color: black;" value="登陆" type="submit">&nbsp;&nbsp;&nbsp;&nbsp;<a href="zc.html" style="color: black;">注册用户</a></input>
+                <input class="zhuce_nam" style="color: black;" value="登陆/注册" type="submit">&nbsp;&nbsp;&nbsp;&nbsp;</input></br>
                 </form>
               </div>
 
               <div class="zhuce_balnk2"></div>
-              <div class="zhuce_nam"><a href="index_1.html">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="wjmm.html">忘记密码？</a>&nbsp;<a href="zc.html">注册用户</a></div>
+
             </div>
           </div>
 
@@ -96,18 +96,18 @@
     <div class="center_gg" style="width: 620px !important;">
       <div class="center_gga">
         <div class="center_gga_1">精选事务公告</div>
-        <div class="more"><a href="bft_more.html">更多&gt;&gt;</a></div>
+        <div class="more"><a href="bft_more.jsp">更多&gt;&gt;</a></div>
       </div>
       <div class="center_ggb">
         <ul>
-          <li><a href="zzy.html"><span>11-6 08：24</span>职前台接待及前台接待及活活动支活动活活动支活动</a></li>
-          <li><a href="zzy.html"><span>11-6 08：24</span>聘模板营业员前营业员前台接待及活动宝山万达</a></li>
-          <li><a href="zzy.html"><span>11-6 08：24</span>业余网拍前台接待及活模拍前台接待及活模特幕结200-600</a></li>
-          <li><a href="zzy.html"><span>11-6 08：24</span>薪500急聘打字员,前台接待及资资日结前台接待</a></li>
-          <li><a href="zzy.html"><span>11-6 08：24</span>时尚精品服前台接接待及待及动饰模特待及待饰模特</a></li>
-          <li><a href="zzy.html"><span>11-6 08：24</span>直前台接待及待及待及动饰模特活兼动招模板模特</a></li>
-          <li><a href="zzy.html"><span>11-6 08：24</span>规淘宝网拍模正规淘宝特杂志模特直招待及待及动饰模特</a></li>
-          <li><a href="zzy.html"><span>11-6 08：24</span>职前待及待及动饰模特待及饰模接待及前台接待及活活动支活动</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>职前台接待及前台接待及活活动支活动活活动支活动</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>聘模板营业员前营业员前台接待及活动宝山万达</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>业余网拍前台接待及活模拍前台接待及活模特幕结200-600</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>薪500急聘打字员,前台接待及资资日结前台接待</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>时尚精品服前台接接待及待及动饰模特待及待饰模特</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>直前台接待及待及待及动饰模特活兼动招模板模特</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>规淘宝网拍模正规淘宝特杂志模特直招待及待及动饰模特</a></li>
+          <li><a href="zzy.jsp"><span>11-6 08：24</span>职前待及待及动饰模特待及饰模接待及前台接待及活活动支活动</a></li>
         </ul>
       </div>
     </div>
@@ -122,17 +122,17 @@
 <div class="bz">
   <div class="center_gga" style="float:left">
     <div class="center_gga_1">招聘分类</div>
-    <div class="center_ggc"><a href="bft_more.html">c++/c</a><a href="bft_more.html">java</a><a href="bft_more.html">python</a><a href="bft_more.html"><a href="bft_more.html">web</a><a href="bft_more.html">其他</a>
-      web</a><a href="bft_more.html"></a>
+    <div class="center_ggc"><a href="bft_more.jsp">c++/c</a><a href="bft_more.jsp">java</a><a href="bft_more.jsp">python</a><a href="bft_more.jsp"><a href="bft_more.jsp">web</a><a href="bft_more.jsp">其他</a>
+      web</a><a href="bft_more.jsp"></a>
     </div>
   </div>
   <div class="bz_a">
     <div class="bz_a_1">c++/c</div>
     <div class="bz_a_2">
       <ul>
-        <li><a href="zzy.html">地板、面砖的铺设 </a></li>
-        <li><a href="zzy.html">粉刷工</a></li>
-        <li><a href="zzy.html">油漆工</a></li>
+        <li><a href="zzy.jsp">地板、面砖的铺设 </a></li>
+        <li><a href="zzy.jsp">粉刷工</a></li>
+        <li><a href="zzy.jsp">油漆工</a></li>
       </ul>
     </div>
   </div>
@@ -140,9 +140,9 @@
     <div class="bz_a_1">java</div>
     <div class="bz_a_2">
       <ul>
-        <li><a href="zzy.html">地暖的铺设</a></li>
-        <li><a href="zzy.html">给、排水路的设计安装</a></li>
-        <li><a href="zzy.html">城市供暖入户安装</a></li>
+        <li><a href="zzy.jsp">地暖的铺设</a></li>
+        <li><a href="zzy.jsp">给、排水路的设计安装</a></li>
+        <li><a href="zzy.jsp">城市供暖入户安装</a></li>
       </ul>
     </div>
   </div>
@@ -150,10 +150,10 @@
     <div class="bz_a_1">python</div>
     <div class="bz_a_2">
       <ul>
-        <li><a href="zzy.html">线路设计安装</a></li>
-        <li><a href="zzy.html">开关、插座的安装</a></li>
-        <li><a href="zzy.html">灯具的安装</a></li>
-        <li><a href="zzy.html">电器的运送、安装 </a></li>
+        <li><a href="zzy.jsp">线路设计安装</a></li>
+        <li><a href="zzy.jsp">开关、插座的安装</a></li>
+        <li><a href="zzy.jsp">灯具的安装</a></li>
+        <li><a href="zzy.jsp">电器的运送、安装 </a></li>
       </ul>
     </div>
   </div>
@@ -161,10 +161,10 @@
     <div class="bz_a_1">web</div>
     <div class="bz_a_2">
       <ul>
-        <li><a href="zzy.html">装修设计施工</a></li>
-        <li><a href="zzy.html">附属装饰安装</a></li>
-        <li><a href="zzy.html">各种门类安装</a></li>
-        <li><a href="zzy.html">家具的运送、安装</a></li>
+        <li><a href="zzy.jsp">装修设计施工</a></li>
+        <li><a href="zzy.jsp">附属装饰安装</a></li>
+        <li><a href="zzy.jsp">各种门类安装</a></li>
+        <li><a href="zzy.jsp">家具的运送、安装</a></li>
       </ul>
     </div>
   </div>
@@ -172,8 +172,8 @@
     <div class="bz_a_1">其他</div>
     <div class="bz_a_2">
       <ul>
-        <li><a href="zzy.html">家居室内清洁</a></li>
-        <li><a href="zzy.html">零工</a></li>
+        <li><a href="zzy.jsp">家居室内清洁</a></li>
+        <li><a href="zzy.jsp">零工</a></li>
       </ul>
     </div>
   </div>

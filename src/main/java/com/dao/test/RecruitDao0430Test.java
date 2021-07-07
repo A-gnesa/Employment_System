@@ -9,10 +9,10 @@ import java.util.Locale;
 class RecruitDao0430Test {
     public static void main(String[] args) {
         RecruitDao0430 recruitDao0430 = new RecruitDao0430();
-//        Recruit0430 recruit = new Recruit0430("2000-11-16 20:18:06", Locale.ENGLISH);
+        Recruit0430 recruit = new Recruit0430();
 //        recruit.setCity("深圳");
 //        recruit.setRequirement("20k");
-//        recruit.setEID(2);
+        recruit.setPID(3);
 //        recruit.setUID(2);
 //        recruit.setSalary("20k-30k");
 //        recruit.setCompanyname("思维造物");
@@ -24,7 +24,8 @@ class RecruitDao0430Test {
 //        System.out.println(recruitDao0430.findRecruitByrequirement(recruit));
 //        System.out.println(recruitDao0430.delete(recruit));
 //        System.out.println(recruitDao0430.findRecruitBytime());
-        System.out.println(recruitDao0430.findRecruitByKeyword("深圳"));
-        System.out.println(recruitDao0430.findRecruitByJobName("web"));
+//        System.out.println(recruitDao0430.findRecruitByKeyword("深圳"));
+//        System.out.println(recruitDao0430.findRecruitByJobName("web"));
+        System.out.println(recruitDao0430.findRecruitByPID(recruit));
     }
 }

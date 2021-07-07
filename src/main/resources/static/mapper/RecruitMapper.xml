@@ -29,5 +29,9 @@
     <select id="findRecruitByJobName" resultType="com.po.Recruit0430">
         select * from recruit where EID in (select EID from Job where jname = #{_parameter})
     </select>
+    <select id="findRecruitByPID" parameterType="com.po.Recruit0430" resultType="com.po.Recruit0430">
+        select * from recruit where PID = #{PID};
+    </select>
+
 
 </mapper>
