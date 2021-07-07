@@ -1,3 +1,4 @@
+@charset "utf-8";
 .diy_select{height:22px;width:116px; padding:5px;position:relative;font-size:14px;background:#fff; background:url(../images/bft_search2.jpg) right top no-repeat;float:left; margin-left:28px;}
 .diy_select_btn,.diy_select_txt{float:left;height:100%;line-height:25px; color:#000}
 .diy_select,.diy_select_list{border:1px solid #73839F;}
