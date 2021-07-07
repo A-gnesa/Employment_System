@@ -20,12 +20,11 @@
     </bean>
     <mvc:annotation-driven></mvc:annotation-driven>
     <!--    过滤静态资源-->
-    <!-- 设置静态资源不过滤 -->
-    <mvc:resources location="/css/" mapping="/css/**" />
-    <mvc:resources location="/images/" mapping="/images/**" />
-    <mvc:resources location="/js/" mapping="/js/**" />
-
     <mvc:default-servlet-handler/>
+    <!-- 设置静态资源不过滤 -->
+    <mvc:resources location="css/**" mapping="/css/**" />
+    <mvc:resources location="images/**" mapping="images/**" />
+    <mvc:resources location="js/*" mapping="/js/**" />
 
     <!--    开启springMVC注解的支持-->
 

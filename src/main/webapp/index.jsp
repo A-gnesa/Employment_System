@@ -1,31 +1,26 @@
 <%--
   Created by IntelliJ IDEA.
   User: hanhan
-  Date: 2021/6/25
-  Time: 10:03 上午
+  Date: 2021/7/7
+  Time: 10:56 上午
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>网站模板 — 首页</title>
-  <link href="${pageContext.request.contextPath}/css/select2.css" rel="stylesheet">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/area.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/location.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2_locale_zh-CN.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.touchSlider.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/js.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/js/ks-switch.pack.js"></script>
+<html>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/select2.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/search/area.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/search/location.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/search/select2_locale_zh-CN.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/js.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/ks-switch.pack.js"></script>
+<head>
+  <title>Title</title>
 </head>
-
 <body class="bs_bg">
-
-
-
 <!-- top内容开始 -->
 <div class="top">
   <div class="top_a">
@@ -62,8 +57,8 @@
   <div class="search_blank"></div>
   <div class="search_c">
     <input class="s_t" style="width:690px; height:17px; padding:8px; font-size:14px; color:#b8b8b8; letter-spacing:2px;margin-top: 10px" onblur="if(this.value==''){this.value='请输入职位名、公司名等关键词';this.style.color='#aaa'}" onfocus="if(this.value=='请输入职位名 公司名等关键字'){this.value='';this.style.color='#666'}" value="请输入职位名 公司名等关键字" name="keyword" >
-  </div>
-  <div class="search_btn"><a href="bft_more.html"><img src="images/search_btn.jpg"></a></div>
+  </div><c:url value="/js/jQuery.js"></c:url>images/search_btn.jpg
+  <div class="search_btn"><a href="bft_more.html"><img src=''></a></div>
 </div>
 <!-- 搜索内容结束 -->
 <!-- 公告和介绍开始  -->
@@ -250,4 +245,5 @@
     <!-- drag_con end -->
   </div>
 </div>
-</body></html>
+</body>
+</html>
