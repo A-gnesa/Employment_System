@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
-
+// 缪泽洋
 @Service("applicationService")
 public class applicationService {
     @Resource(name = "ApplicationDao")

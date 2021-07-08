@@ -3,7 +3,7 @@ package com.po;
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
-
+//缪泽洋
 public class User {
     private Integer UID;
     private Integer AID;

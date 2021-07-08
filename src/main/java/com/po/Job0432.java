@@ -13,7 +13,9 @@ public class Job0432 {
                 '}';
     }
 
+
     public Job0432() {
+
     }
 
     public Job0432(Integer EID, String jname) {

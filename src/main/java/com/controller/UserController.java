@@ -50,6 +50,7 @@ public class UserController {
     }
 //    翟士衡
     @RequestMapping(value = "/register",method = RequestMethod.POST)
+
     public String register  (@Param("accountNumber")String accountNumber,@Param("password")String password
                             ,@Param("repeatPassword")String repeatPassword){
         if (userService.register(accountNumber,password)){
@@ -58,6 +59,8 @@ public class UserController {
         return "zcsb";
 
     }
+
+//    缪泽洋
     @RequestMapping(value = "/assort",method = RequestMethod.GET)
     public String assort(@Param("jname")String jname, Model m){
         Job0432 j = new Job0432();
@@ -67,12 +70,14 @@ public class UserController {
         m.addAttribute("jname",jname);
         return "bft_more";
     }
+//   缪泽洋
     @RequestMapping(value = "/returnIndex")
     public String returnIndex(Model m){
         List<Recruit0430>list =  recruitService.searchALLRecruit();
         m.addAttribute("recruitList",list);
         return "i";
     }
+//    缪泽洋
     @RequestMapping(value = "/findAll")
     public String findAll(Model m){
         List<Recruit0430>list =  recruitService.searchALLRecruit();

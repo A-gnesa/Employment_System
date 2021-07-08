@@ -4,7 +4,11 @@ import com.dao.baseDao;
 import com.po.User;
 import org.springframework.stereotype.Repository;
 
+import javax.annotation.Resource;
 import java.util.List;
+
+
+//缪泽洋
 @Repository("UserDao")
 public  class UserDao extends baseDao implements UserDaoI{
     @Override
