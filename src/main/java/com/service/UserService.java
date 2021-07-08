@@ -16,7 +16,7 @@ public class UserService {
     UserDao userDao;
     @Resource(name = "PersonalInformationDao")
     PersonalInformationDaol0308 personalInformationDaol0308;
-
+//    翟士衡
     //    登陆 成功返回true 不成功返回false
     public boolean login (String accout,String password){
         User user = new User();
@@ -30,11 +30,12 @@ public class UserService {
             return false;
 
     }
+//    翟士衡
     //    注册 成功返回true 不成功返回false 注册成功的同时增加一条主键为
     //     user的UID的个人信息
     public boolean register(String accout,String password){
         User user = new User();
-        userDao.findUserByAccountNumber(accout);
+        user =  userDao.findUserByAccountNumber(accout);
 
 //        if (user != null){
 //            if (userDao.findUserByAccountNumber(accout).equals())
@@ -52,7 +53,7 @@ public class UserService {
 
     }
 //    修改Information 成功true 失败false
-
+//    高蕊
     public boolean updateInformationBYUID(PersonalInformation0308 p) {
         return personalInformationDaol0308.updateInformationBYUID(p);
     }
@@ -76,6 +77,6 @@ public class UserService {
         User u = new User();
         u.setUID(uid);
         return personalInformationDaol0308.selectInformationBYUID(u);
-
+//
     }
 }

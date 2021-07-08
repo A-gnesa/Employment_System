@@ -95,8 +95,14 @@
                 <ul>
 
                     <c:forEach items="${recruitList}" var="recruit" begin="1" end="8">
-                        <li><span>${recruit.time}</span>${recruit.companyInformation}</li>
+                        <li><span>${recruit.time}</span>${recruit.companyInformation}
+                                    </li>
                     </c:forEach>
+
+                   <c:forEach items="">
+
+                   </c:forEach>
+
 
                 </ul>
             </div>

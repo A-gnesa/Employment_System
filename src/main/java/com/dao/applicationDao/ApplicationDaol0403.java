@@ -10,8 +10,6 @@ public interface ApplicationDaol0403 {
     boolean deleteByUID(User user);
     List<Application0403> selectApplicationByTime();
     boolean insertApplicationByUIDANDPID(User u , Recruit0430 r);
-
     List<Application0403> findApplicationByUID(User u);
-
     boolean deleteByRID(Integer rid);
 }

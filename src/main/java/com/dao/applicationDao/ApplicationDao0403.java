@@ -12,6 +12,9 @@ import org.springframework.stereotype.Repository;
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
+
+
+
 @Repository("ApplicationDao")
 public class ApplicationDao0403 extends baseDao implements ApplicationDaol0403{
 
@@ -37,7 +40,6 @@ public class ApplicationDao0403 extends baseDao implements ApplicationDaol0403{
         a.setUID(u.getUID());
         Timestamp t = new Timestamp(new Date().getTime());
         a.setApplicationTime(t);
-
         int i = session.insert("insertApplicationByUIDANDPID",a);
         session.commit();
         return i>0;

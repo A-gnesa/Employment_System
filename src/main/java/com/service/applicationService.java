@@ -5,11 +5,11 @@ import com.po.Application0403;
 import com.po.PersonalInformation0308;
 import com.po.Recruit0430;
 import com.po.User;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
-
 
 @Service("applicationService")
 public class applicationService {
@@ -34,7 +34,6 @@ public class applicationService {
 
     public void deleteApplicationByRID(String rid) {
         Integer r = Integer.valueOf(rid);
-
         applicationDao0403.deleteByRID(r);
     }
 }

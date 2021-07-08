@@ -27,8 +27,13 @@ public class UserController {
     @Resource(name = "applicationService")
     applicationService applicationService;
 
+
+
+
+//    翟士衡
     @RequestMapping("/userLogin")
-    public String userLogin(@Param("account")String account, @Param("password")String password, Model m, HttpServletRequest request) {
+    public String userLogin(@Param("account")String account, @Param("password")String password,
+                            Model m, HttpServletRequest request) {
         if (userService.login(account, password)) {
             User u = new User();
             u.setAccountNumber(account);
@@ -37,13 +42,13 @@ public class UserController {
             List<Recruit0430>list =  recruitService.searchALLRecruit();
             m.addAttribute("recruitList",list);
             PersonalInformation0308 personalInformation0308 = new PersonalInformation0308();
-
             request.getSession().setAttribute("user",u);
             return "i";
         }else {
             return "dlsb";
         }
     }
+//    翟士衡
     @RequestMapping(value = "/register",method = RequestMethod.POST)
     public String register  (@Param("accountNumber")String accountNumber,@Param("password")String password
                             ,@Param("repeatPassword")String repeatPassword){
@@ -106,10 +111,12 @@ public class UserController {
         m.addAttribute("recruit",recruit0430);
         return "zzy";
     }
+//    姚程越
     @RequestMapping("/addRecruitPage")
     public String addRecruitPage(){
         return "zp";
     }
+//    姚程越
     @RequestMapping("/addRecruit")
     public String addRecruit(@Param("companyname")String companyname,@Param("city")String city
                             ,@Param("requirement")String requirement,@Param("salary")String salary

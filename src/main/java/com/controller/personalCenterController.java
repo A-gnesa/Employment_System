@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
+//高蕊
+
 @Controller
 public class personalCenterController {
     @Resource(name = "UserService")
