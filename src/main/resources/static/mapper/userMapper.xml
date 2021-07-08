@@ -11,7 +11,8 @@
         values (#{reqTime},#{accountNumber},#{password});
     </insert>
     <select id="findUserByAccountNumber" parameterType="String" resultType="com.po.User">
-        select * from User where accountNumber = #{accountNumber}
+        select * from User where accountNumber = #{accountNumber} order by UID desc
+LIMIT 1
     </select>
 
 </mapper>

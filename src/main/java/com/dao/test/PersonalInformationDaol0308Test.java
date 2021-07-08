@@ -21,6 +21,7 @@ public class PersonalInformationDaol0308Test {
 //        System.out.println(personalInformationDaol0308.updateInformationBYUID(personalInformation0308));
         User u = new User();
         u.setAccountNumber("123");
-        System.out.println(personalInformationDaol0308.selectInformationBYAccount(u));
+        u.setUID(1);
+        System.out.println(personalInformationDaol0308.selectInformationBYUID(u));
     }
 }

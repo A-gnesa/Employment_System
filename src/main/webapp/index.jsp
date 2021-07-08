@@ -33,7 +33,7 @@
           <a href="bz.html">
             <li>个人中心</li>
           </a>
-          <a href="zp.html">
+          <a href="zp.jsp">
             <li>发布中心</li>
           </a>
           <a href="bj.html">

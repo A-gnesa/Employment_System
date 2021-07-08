@@ -42,18 +42,19 @@
             <div class="top_bga_1"></div>
             <div class="top_bga_2">
                 <ul>
-                    <a href="bz.html">
+                    <a href="/personalCenter">
                         <li>个人中心</li>
                     </a>
-                    <a href="zp.html">
+                    <a href="zp.jsp">
                         <li>发布中心</li>
+                    </a>
+                    <a href="">
+                        <li>应聘中心</li>
                     </a>
                     <a href="/returnIndex">
                         <li>首页</li>
                     </a>
-                    <a href="">
-                        <li></li>
-                    </a>
+
                 </ul>
             </div>
         </div>

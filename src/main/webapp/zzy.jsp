@@ -25,19 +25,19 @@
             <div class="top_bga_1"></div>
             <div class="top_bga_2">
                 <ul>
-                    <a href="bz.html">
+                    <a href="/personalCenter">
                         <li>个人中心</li>
                     </a>
-                    <a href="zp.html">
+                    <a href="zp.jsp">
                         <li>发布中心</li>
+                    </a>
+                    <a href="">
+                        <li>应聘中心</li>
                     </a>
                     <a href="/returnIndex">
                         <li>首页</li>
                     </a>
-                    <a href="">
-                        <li></li>
-                    </a>
-                    </a>
+
                 </ul>
             </div>
         </div>
@@ -73,7 +73,7 @@
             </table>
         </div>
         <div class="zzy_4">
-            <a href="/addApplication"> <button onclick="alert('申请成功')" style="width:180px; height:50px; line-height:50px; text-align:center; color:#fff; background:#fd8000; float:left; font-size:24px; margin-left:50px;font-family:"微软雅黑"; letter-spacing:4px;">申请职位</button> </a>
+            <a href="/addApplication?PID=${recruit.PID}"> <button onclick="alert('申请成功')" style="width:180px; height:50px; line-height:50px; text-align:center; color:#fff; background:#fd8000; float:left; font-size:24px; margin-left:50px;font-family:"微软雅黑"; letter-spacing:4px;">申请职位</button> </a>
 
         </div>
 

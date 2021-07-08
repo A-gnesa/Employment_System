@@ -2,6 +2,7 @@ package com.service;
 
 import com.dao.applicationDao.ApplicationDao0403;
 import com.dao.applicationDao.ApplicationDaol0403;
+import com.dao.jobDao.JobDao0432;
 import com.dao.recruitDao.RecruitDao0430;
 import com.po.Application0403;
 import com.po.Job0432;
@@ -11,6 +12,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.Resource;
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
 
 @Service("recruitService")
@@ -19,6 +22,8 @@ public class RecruitService {
     RecruitDao0430 recruitDao0430;
     @Resource(name = "ApplicationDao")
     ApplicationDao0403 applicationDao0403;
+    @Resource(name = "JobDao")
+    JobDao0432 jobDao0432;
 //    查询最近十条信息
     public List<Recruit0430> searchALLRecruit(){
         return recruitDao0430.findALLRecruit();
@@ -34,7 +39,13 @@ public class RecruitService {
 
     }
     //    发布 （根据Recruit 增加一条Recruit信息）
-    public boolean insertRecruit(Recruit0430 recruit0430){
+    public boolean insertRecruit(Recruit0430 recruit0430,String jname){
+        Job0432 j = new Job0432();
+        j.setJname(jname);
+        Job0432 j1 =  jobDao0432.findJobByJName(j);
+        recruit0430.setEID(j1.getEID());
+        Timestamp t = new Timestamp(new Date().getTime());
+        recruit0430.setTime(t);
         return recruitDao0430.add(recruit0430);
     }
 

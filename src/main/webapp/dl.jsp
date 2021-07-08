@@ -24,17 +24,19 @@
                 <div class="top_bga_1"></div>
                 <div class="top_bga_2">
                     <ul>
-                        <a href="bz.html">
-                            <li>帮 主</li>
+                        <a href="">
+                            <li></li>
                         </a>
-                        <a href="bj.html">
-                            <li>帮 交</li>
+                        <a href="">
+                            <li></li>
                         </a>
-                        <a href="bft.html">
-                            <li>帮分舵</li>
+                        <a href="">
+                            <li></li>
                         </a>
-                        <a href="index.html">
-                            <li>帮 首</li>
+                        <a href="">
+                            <li></li>
+                        </a>
+
                         </a>
                     </ul>
                 </div>
@@ -75,8 +77,8 @@
                         <input type="password" name="password"/>
                     </div>
 
-                    <input class="item_b" type="submit" src="images/dl.jpg" >
-
+                    <input class="item_b" type="submit" value="登陆" src="images/dl.jpg" >
+                    <a href="/zc.jsp">注册</a>
                 </div>
                 </form>
             </div>

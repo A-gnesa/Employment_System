@@ -9,4 +9,15 @@
     <select id="selectApplicationByTime" resultType="com.po.Application0403">
         select * from application order by applicationTime desc
     </select>
+    <insert id="insertApplicationByUIDANDPID" parameterType="com.po.Application0403">
+        insert into application (PID,UID,applicationTime) values (#{PID},#{UID},#{applicationTime})
+    </insert>
+    <select id="findApplicationByUID" parameterType="com.po.User" resultType="com.po.Application0403">
+        select * from application where PID in (
+            select PID from recruit where UID = #{UID}
+            )
+    </select>
+    <delete id="deleteByRID" parameterType="Integer">
+        delete from application where RID = #{RID}
+    </delete>
 </mapper>

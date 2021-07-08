@@ -8,6 +8,33 @@ public class Application0403 {
     private Integer RID;
 //    PID 招聘表主键
     private Integer PID;
+    private Integer UID;
+
+    @Override
+    public String toString() {
+        return "Application0403{" +
+                "RID=" + RID +
+                ", PID=" + PID +
+                ", UID=" + UID +
+                ", applicationTime=" + applicationTime +
+                '}';
+    }
+
+    public Application0403(Integer RID, Integer PID, Integer UID, Timestamp applicationTime) {
+        this.RID = RID;
+        this.PID = PID;
+        this.UID = UID;
+        this.applicationTime = applicationTime;
+    }
+
+    public Integer getUID() {
+        return UID;
+    }
+
+    public void setUID(Integer UID) {
+        this.UID = UID;
+    }
+
     private Timestamp applicationTime;
 
     public Application0403() {
@@ -43,12 +70,4 @@ public class Application0403 {
         this.applicationTime = applicationTime;
     }
 
-    @Override
-    public String toString() {
-        return "Application0403{" +
-                "RID=" + RID +
-                ", PID=" + PID +
-                ", applicationTime=" + applicationTime +
-                '}';
-    }
 }

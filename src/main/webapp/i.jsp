@@ -38,10 +38,10 @@
                     <a href="/personalCenter">
                         <li>个人中心</li>
                     </a>
-                    <a href="zp.html">
+                    <a href="/addRecruitPage">
                         <li>发布中心</li>
                     </a>
-                    <a href="">
+                    <a href="/applicationCenter">
                         <li>应聘中心</li>
                     </a>
                     <a href="/returnIndex">

@@ -15,4 +15,7 @@
     <update id="updateInformationByname" parameterType="com.po.Job0432">
         update Job SET jname=#{jname} where EID=#{EID}
     </update>
+    <select id="findJobByJName" parameterType="com.po.Job0432" resultType="com.po.Job0432">
+        select * from Job where jname = #{jname}
+    </select>
 </mapper>

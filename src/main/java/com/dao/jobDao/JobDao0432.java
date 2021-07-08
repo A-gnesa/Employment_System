@@ -37,4 +37,10 @@ public class JobDao0432 extends baseDao implements JobDaol0432 {
         session.commit();
         return i;
     }
+
+    @Override
+    public Job0432 findJobByJName(Job0432 j) {
+        session = factory.openSession();
+        return session.selectOne("findJobByJName",j);
+    }
 }

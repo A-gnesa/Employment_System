@@ -19,7 +19,9 @@ public class PersonalInformationDaol0308 extends baseDao implements PersonalInfo
 
     @Override
     public PersonalInformation0308 selectInformationBYUID(User user) {
-        return null;
+        session = factory.openSession();
+        return session.selectOne("selectInformationBYUID",user);
+
     }
 
     @Override

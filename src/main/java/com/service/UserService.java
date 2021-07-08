@@ -66,4 +66,16 @@ public class UserService {
         PersonalInformation0308 p = personalInformationDaol0308.selectInformationBYAccount(u);
         return p;
     }
+
+    public User findUserBYAccountName(String AccountName){
+        return userDao.findUserByAccountNumber(AccountName);
+    }
+
+
+    public PersonalInformation0308 findPersonalInformationByUID(Integer uid) {
+        User u = new User();
+        u.setUID(uid);
+        return personalInformationDaol0308.selectInformationBYUID(u);
+
+    }
 }
